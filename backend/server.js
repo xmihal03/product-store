@@ -12,5 +12,5 @@ app.use('/api/products', productRoutes)
 
 app.listen(PORT, async () => {
   await connectDB()
-  console.log(`Server running on ${PORT} 3000`)
+  console.log(`Server running on ${PORT} port`)
 })
